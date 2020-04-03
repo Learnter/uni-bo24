@@ -1,0 +1,128 @@
+page {
+	height: auto;
+	min-height: 100%;
+}
+.apseuptopBox {
+	background: url(../../static/images/a024laner_37.png) no-repeat center;
+	background-size: cover;
+	padding: 80rpx 0rpx 60rpx 0rpx;
+}
+.apseuptopdataBox {
+	padding: 0rpx 10rpx 40rpx 30rpx;
+}
+.apseuptopdataimg {
+	width:150rpx;
+	height: 150rpx;
+	border-radius: 50%;
+	background-image: linear-gradient(to top,#DCF8FF,#3B7FEA);
+	padding: 6rpx;
+	margin-right:40rpx;
+}
+.topdataimgHe {
+	background: #ffffff;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.topdataimgHe image {
+	width: 100%;
+	height: 100%;
+}
+.topdauid {
+	padding: 30rpx 0rpx 10rpx 0rpx;
+	font-weight: 600;
+	color: #00366A;
+}
+.topdadengj {
+	font-weight: 600;
+	color: #00366A;
+}
+.seuptopNavBox {
+	padding: 0rpx 20rpx;
+  justify-content:space-between;
+}
+.seuptopNav {
+  width: 50%;
+	text-align: center;
+	padding:0rpx 6rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.seuptopNav image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.seuptopNavtx {
+	color:#ffffff;
+	font-size: 26rpx;
+	position: relative;
+	top:-10rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.seuptopNavgx {
+	width: 2rpx;
+	background:rgba(220,248,255,0.3);
+	height: 40rpx;
+	margin-top: 20rpx;
+}
+.zhbunavBox {
+	position: relative;
+	z-index: 10;
+	padding: 0rpx 20rpx;
+}
+.zhbunavHe {
+	background: #ffffff;
+	padding: 15rpx 0rpx;
+	border-radius: 8rpx;
+	box-shadow: 0rpx 3rpx 20rpx #E3E3E3;
+}
+
+.zhbunavLink {
+	text-align: center;
+	padding:0rpx 6rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.zhbunavLink image {
+	width: 60rpx;
+	height: 60rpx;
+  margin-bottom:10rpx;
+}
+.zhbunavLinktx {
+	color:#333333;
+	font-size: 28rpx;
+	position: relative;
+	top:-10rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.btomnavBox {
+	padding: 0rpx 20rpx;
+}
+.btomnav {
+	border-bottom:1px solid #EFF0F2;
+	padding: 25rpx 0rpx;
+}
+.btomnavimg{
+	height:50rpx;
+	width: 80rpx;
+	line-height: 50rpx;
+}
+.btomnavimg image {
+	height:50rpx;
+	width: 50rpx;
+}
+.btomnavtx {
+	color: #333333;
+	font-size: 28rpx;
+	height:50rpx;
+	line-height: 50rpx;
+}
+.btomnavzxx {
+	line-height: 50rpx;
+}

@@ -1,0 +1,198 @@
+page {
+		height: auto;
+		min-height: 100%;
+	}
+	.spbzhenBox {
+		display: flex;
+		background: #F5F5F5;
+		padding:20rpx 0rpx;
+	}
+	.spbzhen {
+		flex: 1;
+		text-align: center;
+    line-height: 24rpx;
+	}
+	.spbzhen .i {
+		margin-right:10rpx;
+	}
+	.spbzhen .text_1 {
+		color:#999999;
+		font-size:22rpx;
+	}
+	.spbzhgwshlBox {
+		padding:20rpx 20rpx 20rpx 30rpx;
+		background: #ffffff;
+		border-bottom:6rpx solid #F5F5F5;
+	}
+	.spbzhgwshlBox .text_1 {
+		color:#333333;
+		display: inline-block;
+		margin-right:10rpx;
+	}
+	.spbzhgwshlBox .text_2 {
+		color:#EA3323;
+	}
+	.spbzhkongBox {
+		padding:100rpx 0rpx 0rpx 0rpx;
+		text-align: center;
+	}
+	.spbzhkongBox image {
+		width:55%;
+	}
+	.spbzhkongtx {
+		color:#888888;
+		padding:20rpx 0rpx;
+	}
+	.shopTlbox {
+		padding:20rpx;
+		display: flex;
+		box-shadow: 0rpx 2rpx 10rpx #dddddd;
+		background: #ffffff;
+		margin-bottom:20rpx;
+	}
+	.shopTldwei {
+		flex: 1;
+		color:#888888;
+	}
+	.shopTldwei .i {
+		margin-right:10rpx;
+	}
+	.shopbji {
+		color: #158DFF;
+	}
+	.shoplistBoxHe {
+		margin-bottom:100rpx;
+	}
+	.shoplistBox {
+		padding:20rpx;
+		background: #ffffff;
+		border-bottom:1px solid #eeeeee;
+		display: flex;
+	}
+	.shopxze {
+		padding-top:30rpx;
+	}
+	.sholistImg {
+		width:120rpx;
+		height:120rpx;
+		margin:0rpx 20rpx 0rpx 15rpx;
+	}
+	.sholistImg image {
+		width:100%;
+		height:100%;
+	}
+	.sholistText {
+		flex: 1;
+	}
+	.sholistTexttl {
+		color:#333333;
+		font-size: 28rpx;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		margin-bottom:5rpx;
+		line-height: 44rpx;
+	}
+	.sholistguige text {
+		display: inline-block;
+		margin:0rpx 10rpx 10rpx 0rpx;
+		/* color:#666666; */
+    color:#FF0000;
+		font-size: 22rpx;
+	}
+	.shjgshulBxo {
+		display: flex;
+	}
+	.shjg {
+		flex: 1;
+		line-height:34rpx;
+    font-size:24rpx;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2; 
+	}
+	.shoppBtmBox {
+		position: fixed;
+		left:0rpx;
+		bottom:0rpx;
+		width: 100%;
+		height:100rpx;
+		background: #ffffff;
+		display: flex;
+		z-index: 100;
+		border-top:1px solid #f2f3f4;
+	}
+	.shoppxuan {
+		padding:0rpx 20rpx 0rpx 20rpx;
+		line-height: 100rpx;
+		color:#333333;
+	}
+	.shoppzji {
+		flex: 1;
+		text-align: right;
+		padding:0rpx 20rpx 0rpx 0rpx;
+		line-height: 100rpx;
+		color:#333333;
+		font-weight: 600;
+		font-size:32rpx;
+	}
+	.shoppzji .text_1 {
+		color:#FF0000;
+	}
+	.shoppjsuan{
+		height:100%;
+		background:#EA3323;
+		padding:0rpx 30rpx;
+		line-height: 100rpx;
+		color:#ffffff;
+		font-size:32rpx;
+	}
+	.shoppjsuan .text_1 {
+		font-size:24rpx;
+	}
+	.btmredactBox {
+		position: fixed;
+		left:0rpx;
+		bottom:0rpx;
+		width: 100%;
+		height:100rpx;
+		background: #ffffff;
+		display: flex;
+		z-index: 110;
+		border-top:1px solid #f2f3f4;
+		visibility: hidden;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		transition: All 0.1s ease-in-out;
+		-webkit-transition: All 0.1s ease-in-out;
+		-moz-transition: All 0.1s ease-in-out;
+		-o-transition: All 0.1s ease-in-out;
+	}
+	.btmredactBoxActive {
+		visibility: visible;
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	.btmshchBox {
+		flex: 1;
+		padding:20rpx 20rpx 0rpx 20rpx;
+		text-align: right;
+	}
+	.btmshchBox .btmshch {
+		display: inline-block;
+		height:60rpx;
+		line-height: 60rpx;
+		font-size:26rpx;
+		margin:0rpx;
+		padding:0rpx 40rpx;
+		background: #FF0000;
+		border:none;
+		color:#ffffff;
+		border-radius: 6rpx;
+	}
+	.btmshchBox .btmshch::after {
+		border:none;
+	}

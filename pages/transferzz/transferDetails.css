@@ -1,0 +1,44 @@
+page,.logDetail{
+    width:100%;
+    min-height:100%;
+    background:#F0F0F2;
+  }
+  .logHead{
+    padding:20rpx;
+    align-items:center;
+    justify-content:center;
+    border-bottom:1rpx solid #EFF0F2;
+    background:#FFFFFF;
+    font-size:32rpx;
+  }
+  .fx1{
+    font-size:30rpx;
+  }
+  .logImg{
+    width:100rpx;
+    height:100rpx;
+    border:4rpx solid cornflowerblue;
+    border-radius:50%;
+    margin-right:20rpx;
+  }
+  .logImg image{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+  }
+  .logList{
+    padding:20rpx 20rpx 30rpx;
+    background:#FFFFFF;
+  }
+  .logRow{
+   padding:10rpx 0rpx;
+   font-size:30rpx;
+  }
+  
+  .logRow:nth-child(5){
+    border-bottom:1rpx solid #EFF0F2;
+  }
+
+  .textColor{
+    font-size:28rpx;
+  }

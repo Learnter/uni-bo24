@@ -1,0 +1,399 @@
+page {
+	background: #1283F2;
+}
+.bdrdatopBox {
+	background: #158DFF;
+}
+.returnpubc {
+	padding:60rpx 0rpx 0rpx 20rpx;
+}
+.returnpubctl {
+	text-align: center;
+	line-height: 60rpx;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 32rpx;
+}
+.returnpzww {
+	width: 60rpx;
+}
+/* #ifdef H5 */
+.returnpubc {
+	padding:20rpx 0rpx 0rpx 20rpx;
+}
+/* #endif */
+
+.bdrdatopCont {
+	padding: 30rpx;
+}
+.bdrdatoptx {
+	color: #A5D6FA;
+	font-size: 26rpx;
+}
+
+.bdrdatopzw {
+	border-radius: 40rpx 40rpx 0rpx 0rpx;
+	background: #1283F2;
+	height: 50rpx;
+}
+.bdrdatoptx {
+	font-size: 26rpx;
+	color:#ffffff;
+}
+.bdrdatoptxshu {
+	font-size: 50rpx;
+	color: #ffffff;
+	padding-bottom: 30rpx;
+}
+
+.paybinavBox {
+	background:#1283F2;
+	padding: 0rpx 20rpx 20rpx 20rpx;
+	margin-bottom:50rpx;
+}
+.paynavtopBox {
+	position: relative;
+	top:-34rpx;
+	text-align: center;
+}
+.paynavtop {
+	display: inline-block;
+}
+.paynavqhhe {
+	height: 68rpx;
+	border-radius: 34rpx;
+	min-width: 260rpx;
+	background: #3B9DFC;
+	line-height: 68rpx;
+	color: #A5D6FA;
+}
+.paynavqh {
+	height: 68rpx;
+	border-radius: 34rpx;
+	background: #3B9DFC;
+	line-height: 68rpx;
+	color: #A5D6FA;
+	padding: 0rpx 40rpx;
+	transition: All 0.15s ease-in-out;
+	-webkit-transition: All 0.15s ease-in-out;
+	-moz-transition: All 0.15s ease-in-out;
+	-o-transition: All 0.15s ease-in-out;
+}
+.paynavqhactive {
+	background:#CBA508;
+	color: #ffffff;
+}
+.bllnavlinkBox {
+	padding: 15rpx 0rpx;
+}
+.bllnavlink {
+	text-align: center;
+	color: #A5D6FA;
+}
+.bllnavlink .zxia {
+	width: 14rpx;
+	height:9rpx;
+	position: relative;
+	top:-10rpx;
+	left:5rpx;
+}
+.bllnavlink .zyou {
+	width: 10rpx;
+	height:14rpx;
+	position: relative;
+	top:-5rpx;
+	left:8rpx;
+}
+
+.billistlbBox {
+	padding: 0rpx 30rpx 0rpx 30rpx;
+}
+.billistlbHe {
+	background: #158DFF;
+	border-radius: ;
+	padding: 20rpx;
+	border-radius: 20rpx;
+	margin-bottom: 30rpx;
+}
+.billismcc {
+	color:#ffffff;
+	min-width: 55%;
+}
+.billishk {
+	margin-top: 10rpx;
+}
+.billishk image {
+	width: 38rpx;
+	height: 38rpx;
+	margin-left: 20rpx;
+}
+.billisjine .text_1 {
+	color: #A5D6FA;
+	font-size: 24rpx;
+	margin-right: 25rpx;
+}
+.billisjine .text_2 {
+	color: #7CBCFC;
+	font-size: 24rpx;
+	margin-right: 15rpx;
+}
+.chshanczan {
+	color: #A5D6FA;
+	padding:60rpx 10rpx 0rpx 0rpx;
+}
+.chshanczan .zxia {
+	width: 14rpx;
+	height:9rpx;
+	position: relative;
+	top:-10rpx;
+	left:10rpx;
+}
+
+/* 出售弹窗 s */
+
+.chzopupBox {
+	position: fixed;
+	left: 0px;
+	top:0px;
+	right:0px;
+	bottom: 0px;
+	width: 100%;
+	min-height: 200rpx;
+	background:rgba(0,0,0,0.6);
+	z-index:999;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: All 0.15s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+
+.chzopupBoxActive {
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.sellpopupupcontBox {
+    position: fixed;
+    left: 0rpx;
+    bottom: 0rpx;
+    width: 100%;
+    max-height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+}
+.sellpopupupcont {
+    height: 100%;
+    padding: 0rpx 30rpx 30rpx 30rpx;
+    background: #ffffff;
+	border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+.sellpoptlmc {
+	text-align: center;
+	padding: 20rpx 0rpx;
+}
+.seltishiBox {
+	padding: 20rpx 0rpx 0rpx 0rpx;
+}
+.seltitledah {
+	padding-top: 20rpx;
+}
+.seltishiBox image {
+	width: 30rpx;
+	height: 26rpx;
+	margin:12rpx 5px 0rpx 0rpx;
+}
+.seltishi {
+	color: #888888;
+	line-height: 50rpx;
+	font-size: 24rpx;
+}
+.seltitztdj {
+	text-align: center;
+	color: #888888;
+	line-height: 50rpx;
+	font-size: 24rpx;
+}
+.sellpopshe {
+	text-align: center;
+}
+.sellpoptshu {
+	font-size: 45rpx;
+}
+.sellpopttx {
+	color: #666666;
+	font-size: 28rpx;
+	line-height: 40rpx;
+}
+.seltitle {
+	padding-right: 15rpx;
+}
+.paczinputBox {
+	border-radius: 6rpx;
+	border:2rpx solid #eeeeee;
+	margin-top: 40rpx;
+	padding: 20rpx;
+}
+.paczinptl {
+	height: 40rpx;
+	line-height: 40rpx;
+	min-width: 25%;
+	border-right: 2rpx solid #eeeeee;
+}
+.paczinput input {
+	text-align: center;
+	font-size: 28rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding: 0rpx;
+	margin: 0rpx;
+}
+.paczgxx {
+	width: 20rpx;
+}
+/* 出售弹窗 e */
+
+/* 发布订单弹窗 s  */
+
+.qxbzxzBox {
+    font-family: "MicrosoftYaHei-Bold";
+    color: #333333;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    overflow: auto;
+    visibility: hidden;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: All 0.15s ease-in-out;
+    -webkit-transition: All 0.15s ease-in-out;
+    -moz-transition: All 0.15s ease-in-out;
+    -o-transition: All 0.15s ease-in-out;
+}
+
+
+.qxbzxzBoxActive {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.qxpopupupcontBox {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    max-height: 100%;
+    padding-top: 30rpx;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    background: #158DFF;
+    border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+.qxasbiltle {
+    text-align: center;
+    padding: 0rpx 0rpx 20rpx 0rpx;
+	color: #7CBCFC;
+}
+.fxzhian {
+    text-align: center;
+	padding: 20rpx 0rpx 40rpx 0rpx;
+}
+.qxasbilqux {
+    padding: 24rpx 0rpx;
+    color: #7CBCFC;
+    text-align: center;
+    border-top: 20rpx solid #1283F2;
+}
+.mahmatx {
+	color: #A5D6FA;
+	font-size: 26rpx;
+	padding-top: 5rpx;
+}
+.mahmabuy {
+	background: linear-gradient(top,#58BF37,#9BEA5D);
+	display: inline-block;
+	color: #ffffff;
+	font-size: 34rpx;
+	height:100rpx;
+	width: 100rpx;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100rpx;
+}
+.mahmasell {
+	background: linear-gradient(top,#DA8F2D,#EFC643);
+	display: inline-block;
+	color: #ffffff;
+	font-size: 34rpx;
+	height:100rpx;
+	width: 100rpx;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100rpx;
+}
+/* 发布订单弹窗 e  */
+
+/* 发布买单 s */ 
+.fabubuydan {
+	position: fixed;
+	left: 0px;
+	top:0px;
+	right:0px;
+	bottom: 0px;
+	width: 100%;
+	min-height: 200rpx;
+	background:rgba(0,0,0,0.6);
+	z-index:999;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: All 0.15s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+
+.fabubuydanActive {
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+/* 发布买单 e */
+
+
+/* 发布卖单 s */ 
+.faselldan {
+	position: fixed;
+	left: 0px;
+	top:0px;
+	right:0px;
+	bottom: 0px;
+	width: 100%;
+	min-height: 200rpx;
+	background:rgba(0,0,0,0.6);
+	z-index: 999;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: All 0.15s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+
+.faselldanActive {
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+/* 发布卖单 e */

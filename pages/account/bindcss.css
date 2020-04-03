@@ -1,0 +1,63 @@
+.apbindaBox {
+		max-height: 600rpx;
+		padding: 30rpx;
+		background: linear-gradient(top,#158DFF,#ffffff);
+	}
+	.apbindaCont {
+		background: #ffffff;
+		border-radius: 10rpx;
+		padding: 30rpx;
+	}
+	
+	.bindiiutBox {
+		margin-bottom: 15rpx;
+	}
+	
+	.bindiiutBox .bindiiut {
+		border-bottom: 1px solid #eeeeee;
+	}
+	
+	.bindiiut .uni-input {
+		height: 80rpx;
+		line-height: 80rpx;
+		padding: 0rpx;
+		color: #666666;
+	}
+	
+	.bindrewimg {
+		width: 300rpx;
+		position: relative;
+		overflow: hidden;
+		min-height: 65rpx;
+	}
+	.bindrewts {
+		position: absolute;
+		top:0rpx;
+		left: 0rpx;
+		width: 100%;
+		padding:10rpx 15rpx;
+		color: #ffffff;
+		font-size:24rpx;
+		background: rgba(0,0,0,0.6);
+		z-index: 100;
+    text-align:center;
+	}
+	.bindrewimg image {
+		width: 100%;
+    height:100%;
+	}
+  .uploadCode{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+	.binshcan {
+		width:140rpx;
+    height:140rpx;
+    
+	}
+	.binshcan image {
+		width:100%;
+    height:100%;
+	}

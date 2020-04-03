@@ -1,0 +1,965 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/guide/index",
+      "style": {
+        "navigationBarTitleText": "启动页",
+        "app-plus": {
+          "titleNView": false
+        },
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/guide/list",
+      "style": {
+        "navigationBarTitleText": "启动介绍页",
+        "app-plus": {
+          "titleNView": false,
+          "bounce": "none"
+        },
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "app-plus": {
+          "titleNView": false,//禁用原生导航栏
+          "bounce":"none"
+        }
+      }
+    },
+    {
+      "path": "pages/login/cancelBind",
+      "style": {
+        "navigationBarTitleText": "解除绑定", //解除绑定
+        "app-plus":{
+          "bounce":"none" //隐藏上下拉反弹阴影
+        }
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/reg/index",
+      "style": {
+        "navigationBarTitleText":"",
+        "app-plus":{
+          "bounce":"none" //隐藏上下拉反弹阴影
+        }
+      }
+    }, {
+      "path": "pages/index/myminelist",
+      "style": {
+        "navigationBarTitleText": "矿机商城",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "我的矿机",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "14px",
+              "color": "#ffffff",
+              "width": "80px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/mine/mymine",
+      "style": {
+        "navigationBarTitleText": "我的矿机"
+      }
+    }, {
+      "path": "pages/mine/service",
+      "style": {
+        "navigationBarTitleText": "矿机运行",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/index/propertzc",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "C2C",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/index/setup",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/public/stay",
+      "style": {
+        "navigationBarTitleText": "温馨提示"
+      }
+    }, {
+      "path": "pages/team/teamindex",
+      "style": {
+        "navigationBarTitleText": "分享码",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/shop/shopindex",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    },{
+      "path": "pages/user/searchpag",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },{
+      "path": "pages/shop/shoplist",
+      "style": {
+        "navigationBarTitleText": "商品分类"
+      }
+    }, {
+      "path": "pages/shop/odform",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "商城",
+              "fontSize": "16px",
+              "color": "#ffffff",
+              "width": "80px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/cart/cartindex",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    }, {
+      "path": "pages/cart/confirmcart",
+      "style": {
+        "navigationBarTitleText": "确认订单"
+      }
+    }, {
+      "path": "pages/order/orderdata",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    }, {
+      "path": "pages/order/confirmpay",
+      "style": {
+        "navigationBarTitleText": "确认付款"
+      }
+    }, {
+      "path": "pages/address/addressindex",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    }, {
+      "path": "pages/address/addaddress",
+      "style": {
+        "navigationBarTitleText": "添加收货地址"
+      }
+    }, {
+      "path": "pages/address/editAddress",
+      "style": {
+        "navigationBarTitleText": "编辑收货地址"
+      }
+    }, {
+      "path": "pages/forgot/index",
+      "style": {
+        "navigationBarTitleText": "", //找回密码
+        "app-plus":{
+          "bounce":"none" //隐藏上下拉反弹阴影
+        }
+      }
+    }, {
+      "path": "pages/reg/agreement",
+      "style": {
+        "navigationBarTitleText": "注册协议"
+      }
+    }, {
+      "path": "pages/user/putuse",
+      "style": {
+        "navigationBarTitleText": "应用列表"
+      }
+    }, {
+      "path": "pages/procewm/procewmindex",
+      "style": {
+        "navigationBarTitleText": "收款二维码"
+      }
+    }, {
+      "path": "pages/procewm/recordlist",
+      "style": {
+        "navigationBarTitleText": "收款记录"
+      }
+    }, {
+      "path": "pages/transferzz/transfergl",
+      "style": {
+        "navigationBarTitleText": "转账管理"
+      }
+    }, {
+      "path": "pages/transferzz/transfer",
+      "style": {
+        "navigationBarTitleText": "火种转账",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/transferzz/transferzhi",
+      "style": {
+        "navigationBarTitleText": "火种转账日志",
+        "enablePullDownRefresh": true
+      }
+    },{
+      "path": "pages/transferzz/transferDetails",
+      "style": {
+        "navigationBarTitleText": "火种日志转账详情"
+      }
+    },
+    {
+      "path": "pages/transferzz/huobiTransfer/huobiTransferLog/huobiTransferLog",
+      "style": {
+        "navigationBarTitleText": "HBY转账日志",
+        "enablePullDownRefresh": true
+      }
+    },{
+      "path": "pages/transferzz/huobiTransfer/huobiTransferLog/hbtlogDetails",
+      "style": {
+        "navigationBarTitleText": "HBY日志转账详情"
+      }
+    },{
+      "path": "pages/transferzz/huobiTransfer/huobiTransfer",
+      "style": {
+        "navigationBarTitleText": "HBY转账",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/transferzz/huobiTransfer/hbyScanTransfer",
+      "style": {
+        "navigationBarTitleText": "HBY扫描转账",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/exchange/exchangegl",
+      "style": {
+        "navigationBarTitleText": "回兑复投管理"
+      }
+    }, {
+      "path": "pages/exchange/exchangefer",
+      "style": {
+        "navigationBarTitleText": "复投",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/exchange/exchangelist",
+      "style": {
+        "navigationBarTitleText": "复投日志"
+      }
+    },{
+      "path": "pages/exchange/exlDetails",
+      "style": {
+        "navigationBarTitleText": "复投详情"
+      }
+    },{
+      "path": "pages/exchange/assetExchange/assetExchange",
+      "style": {
+        "navigationBarTitleText": "节点资产回兑火种",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/exchange/assetExchange/assetExList",
+      "style": {
+        "navigationBarTitleText": "节点资产回兑火种日志"
+      }
+    },{
+      "path": "pages/exchange/assetExchange/exlaDetails",
+      "style": {
+        "navigationBarTitleText": "资产回兑详情"
+      }
+    },{
+      "path": "pages/exchange/hbyExchange/hbyExchange",
+      "style": {
+        "navigationBarTitleText": "HBY回兑火种",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/exchange/hbyExchange/hbyExList",
+      "style": {
+        "navigationBarTitleText": "HBY回兑火种日志"
+      }
+    },{
+      "path": "pages/exchange/hbyExchange/exhlDetails",
+      "style": {
+        "navigationBarTitleText": "HBY回兑详情"
+      }
+    },{
+      "path": "pages/exchange/fireExchange/fireExchange",
+      "style": {
+        "navigationBarTitleText": "火种兑换HBY",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/exchange/fireExchange/fireExList",
+      "style": {
+        "navigationBarTitleText": "火种兑换HBY日志"
+      }
+    },{
+      "path": "pages/exchange/fireExchange/exflDetails",
+      "style": {
+        "navigationBarTitleText": "火种回兑详情"
+      }
+    },{
+      "path": "pages/recharge/phonecharge",
+      "style": {
+        "navigationBarTitleText": "手机充值",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/recharge/phonechlist",
+      "style": {
+        "navigationBarTitleText": "手机充值记录"
+      }
+    },{
+      "path": "pages/recharge/plDetails",
+      "style": {
+        "navigationBarTitleText": "手机充值详情"
+      }
+    },{
+      "path": "pages/recharge/oilrecharge",
+      "style": {
+        "navigationBarTitleText": "油卡充值",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/recharge/oilrelist",
+      "style": {
+        "navigationBarTitleText": "油卡充值记录"
+      }
+    },{
+      "path": "pages/recharge/olDetails",
+      "style": {
+        "navigationBarTitleText": "油卡充值详情"
+      }
+    }, {
+      "path": "pages/goods/goodsinfo",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    }, {
+      "path": "pages/account/payinfo",
+      "style": {
+        "navigationBarTitleText": "收款管理"
+      }
+    }, {
+      "path": "pages/account/bindalipay",
+      "style": {
+        "navigationBarTitleText": "支付宝绑定",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue505",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/account/bindalipaydata",
+      "style": {
+        "navigationBarTitleText": "支付宝二维码保存指南"
+      }
+    }, {
+      "path": "pages/account/bindwechat",
+      "style": {
+        "navigationBarTitleText": "微信绑定",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue505",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/account/bindwechatdata",
+      "style": {
+        "navigationBarTitleText": "微信二维码保存指南"
+      }
+    }, {
+      "path": "pages/account/userbank",
+      "style": {
+        "navigationBarTitleText": "我的银行卡"
+      }
+    }, {
+      "path": "pages/account/bankadd",
+      "style": {
+        "navigationBarTitleText": "添加银行卡"
+      }
+    }, {
+      "path": "pages/account/bankEdit",
+      "style": {
+        "navigationBarTitleText": "修改银行卡信息"
+      }
+    }, {
+      "path": "pages/hbyconve/conversion",
+      "style": {
+        "navigationBarTitleText": "兑换",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },{
+      "path": "pages/hbyconve/conversionlist",
+      "style": {
+        "navigationBarTitleText": "兑换日志"
+      }
+    },{
+      "path": "pages/hbyconve/deposittx",
+      "style": {
+        "navigationBarTitleText": "提现",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/hbyconve/deposittxlist",
+      "style": {
+        "navigationBarTitleText": "提现日志"
+      }
+    }, {
+      "path": "pages/hbyconve/rechargechz",
+      "style": {
+        "navigationBarTitleText": "充值",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/hbyconve/rechargechzlist",
+      "style": {
+        "navigationBarTitleText": "充值日志"
+      }
+    }, {
+      "path": "pages/user/personalinfo",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    }, {
+      "path": "pages/user/securityinfo",
+      "style": {
+        "navigationBarTitleText": "安全管理"
+      }
+    }, {
+      "path": "pages/user/sapassword",
+      "style": {
+        "navigationBarTitleText": "设置登录密码"
+      }
+    }, {
+      "path": "pages/user/savesecpwd",
+      "style": {
+        "navigationBarTitleText": "设置交易密码"
+      }
+    },{
+      "path": "pages/user/address",
+      "style": {
+        "navigationBarTitleText": "USDT地址管理"
+      }
+    },{
+      "path": "pages/user/hby_address",
+      "style": {
+        "navigationBarTitleText": "HBY地址管理"
+      }
+    },{
+      "path": "pages/agent/bdrindex",
+      "style": {
+        "navigationBarTitleText": "我的社区"
+      }
+    }, {
+      "path": "pages/notice/noticeindex",
+      "style": {
+        "navigationBarTitleText": "平台公告"
+      }
+    }, {
+      "path": "pages/notice/noticedata",
+      "style": {
+        "navigationBarTitleText": "公告详情"
+      }
+    }, {
+      "path": "pages/message/messageindex",
+      "style": {
+        "navigationBarTitleText": "留言",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/message/messagelist",
+      "style": {
+        "navigationBarTitleText": "留言列表"
+      }
+    }, {
+      "path": "pages/user/aboutdetail",
+      "style": {     
+        "navigationBarTitleText": "关于我们",
+        "transparentTitle":"auto"
+      }
+    }, {
+      "path": "pages/flametrad/paybill",
+      "style": {
+        "navigationBarTitleText": "火种交易-买单",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/flametrad/salebill",
+      "style": {
+        "navigationBarTitleText": "火种交易-卖单",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    }, {
+      "path": "pages/flametrad/tradrecord",
+      "style": {
+        "navigationBarTitleText": "交易记录"
+      }
+    }, {
+      "path": "pages/flametrad/myorder",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/flametrad/matchdeta",
+      "style": {
+        "navigationBarTitleText": "匹配详情",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "留言记录",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "14px",
+              "color": "#ffffff",
+              "width": "80px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/flametrad/mymesge",
+      "style": {
+        "navigationBarTitleText": "我要留言"
+      }
+    }, {
+      "path": "pages/flametrad/mymesgelist",
+      "style": {
+        "navigationBarTitleText": "留言记录"
+      }
+    }, {
+      "path": "pages/flametrad/ordersearbuy",
+      "style": {
+        "navigationBarTitleText": "买单搜索"
+      }
+    }, {
+      "path": "pages/flametrad/ordersearsell",
+      "style": {
+        "navigationBarTitleText": "卖单搜索"
+      }
+    }, {
+      "path": "pages/money/walletlog",
+      "style": {
+        "navigationBarTitleText": "钱包日志"
+      }
+    },{
+      "path": "pages/money/walletDetails",
+      "style": {
+        "navigationBarTitleText": "账单详情"
+      }
+    },{
+      "path": "pages/money/hbylogs",
+      "style": {
+        "navigationBarTitleText": "HBY资产日志"
+      }
+    },{
+      "path": "pages/money/hbyDetails",
+      "style": {
+        "navigationBarTitleText": "账单详情"
+      }
+    },{
+      "path": "pages/hbydeal/hbydeal",
+      "style": {
+        "navigationBarTitleText": "HBY交易买单",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/hbydeal/hbybuy",
+      "style": {
+        "navigationBarTitleText": "HBY买入",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/hbydeal/hbybuylist",
+      "style": {
+        "navigationBarTitleText": "HBY买入记录",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/hbydeal/hbybuydata",
+      "style": {
+        "navigationBarTitleText": "买入订单详情"
+      }
+    }, {
+      "path": "pages/hbydeal/hbysell",
+      "style": {
+        "navigationBarTitleText": "HBY卖出",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue537",
+              "fontSrc": "/static/uni.ttf",
+              "fontSize": "22px",
+              "color": "#ffffff"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/hbydeal/hbyselllist",
+      "style": {
+        "navigationBarTitleText": "HBY卖出记录"
+      }
+    }, {
+      "path": "pages/hbydeal/hbyselldata",
+      "style": {
+        "navigationBarTitleText": "卖出订单详情"
+      }
+    }, {
+      "path": "pages/commercial/commercial",
+      "style": {
+        "navigationBarTitleText": "商学院"
+      }
+    }, {
+      "path": "pages/commercial/comDetail",
+      "style": {
+        "navigationBarTitleText": "商学院详情"
+      }
+    }, {
+      "path": "pages/merchant/sjapplyfor",
+      "style": {
+        "navigationBarTitleText": "商家申请"
+      }
+    }, {
+      "path": "pages/merchant/businescenter",
+      "style": {
+        "navigationBarTitleText": "商家中心"
+      }
+    }, {
+      "path": "pages/merchant/businessOrder",
+      "style": {
+        "navigationBarTitleText": "商家订单",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/merchant/setupshop",
+      "style": {
+        "navigationBarTitleText": "商家设置"
+      }
+    }, {
+      "path": "pages/merchant/releasecomm",
+      "style": {
+        "navigationBarTitleText": "发布商品"
+      }
+    }, {
+      "path": "pages/merchant/financeLogs",
+      "style": {
+        "navigationBarTitleText": "财务日志"
+      }
+    },
+    {
+      "path": "pages/merchant/mystore",
+      "style": {
+        "navigationBarTitleText": "商家店铺"
+      }
+    },{
+      "path": "pages/game/gameindex",
+      "style": {
+        "navigationBarTitleText": "游戏中心"
+      }
+    }, {
+      "path": "pages/game/dial/dial",
+      "style": {
+        "navigationBarTitleText": "幸运转盘",
+        "navigationBarBackgroundColor": "#FF6D24"
+      }
+    }, {
+      "path": "pages/shop/searchGoods/searchGoods",
+      "style": {
+        "navigationBarTitleText": "商品搜索页面"
+      }
+    }, { //线下商家
+      "path": "pages/OfflineStore/OfflineStore",
+      "style": {
+        "navigationBarTitleText": "线下商家"
+      }
+    }, {
+      "path": "pages/OfflineStore/storeList/storeList",
+      "style": {
+        "navigationBarTitleText": "线下商铺列表",
+        "app-plus":{
+           "bounce":"none"
+        }
+      }
+    }, {
+      "path": "pages/OfflineStore/storeDetail/storeDetail",
+      "style": {
+        "navigationBarTitleText": "线下店铺详情",
+        "app-plus":{
+           "bounce":"none"
+        }
+      }
+    },{
+      "path": "pages/OfflineStore/searchOf",
+      "style": {
+        "navigationBarTitleText": "搜索线下店铺",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }, 
+    {
+      "path": "pages/logsDetail/logsDetail",
+      "style": {
+        "navigationBarTitleText": "日志详情"
+      }
+    },{
+        "path" : "pages/hbydeal/hbyWithdraw/hbyWithdraw",
+        "style" : {
+          "navigationBarTitleText": "HBY提现",
+          "app-plus": {
+            "titleNView": {
+              "buttons": [{
+                "text": "\ue537",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#ffffff"
+              }]
+            }
+          }
+        }
+      },{
+        "path" : "pages/hbydeal/hbyWithdraw/hbyWithdrawLogs",
+        "style" : {
+          "navigationBarTitleText": "HBY提现日志"
+        }
+      },{
+          "path" : "pages/OfflineStore/payDetail/payDetail",
+          "style" : {
+            "navigationBarTitleText":"支付详情",
+            "app-plus":{
+              "bounce":"none"
+           }
+        }
+      }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "火币源",
+    "navigationBarBackgroundColor": "#158DFF",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "animationType": "fade-in",
+      "animationDuration": 300
+    }
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#648FD6",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/a024laner_13.png",
+        "selectedIconPath": "static/images/a024laner_12.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/myminelist",
+        "iconPath": "static/images/a024laner_15.png",
+        "selectedIconPath": "static/images/a024laner_14.png",
+        "text": "矿机"
+      },
+      {
+        "pagePath": "pages/shop/shopindex",
+        "iconPath": "static/images/a024laner_71.png",
+        "selectedIconPath": "static/images/a024laner_72.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/index/propertzc",
+        "iconPath": "static/images/a024laner_17.png",
+        "selectedIconPath": "static/images/a024laner_16.png",
+        "text": "C2C"
+      },
+      {
+        "pagePath": "pages/index/setup",
+        "iconPath": "static/images/a024laner_19.png",
+        "selectedIconPath": "static/images/a024laner_18.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+.confirBox {
+	padding: 20rpx;
+}
+.confirtopCt {
+	box-shadow: 0rpx 2rpx 10rpx #dddddd;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.nfirtopshu {
+	text-align: center;
+	padding: 10rpx 0rpx 30rpx 0rpx;
+	color: #158DFF;
+	font-size: 40rpx;
+}
+.nfirtopbh {
+	color: #999999;
+	font-size: 26rpx;
+}
+.nfirtopsctm {
+	color: #999999;
+	font-size: 26rpx;
+}
+.confirCont {
+	box-shadow: 0rpx 2rpx 10rpx #dddddd;
+	padding:30rpx 20rpx;
+}
+.confirxuabox {
+	margin-top: 30rpx;
+}
+.confirimg {
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 20rpx;
+}
+.confirimg image {
+	width: 100%;
+	height:100%;
+}
+.zsshnbi {
+	line-height: 40rpx;
+}
+.yueeeezs {
+	line-height: 40rpx;
+	font-size: 26rpx;
+}
+.yueeeezs .text_2 {
+	color: #158DFF;
+}
+.zsshxzan {
+	padding-top: 10rpx;
+}
+
+.confirBtnBox .confirBtn {
+	padding: 0rpx;
+	margin: 0rpx;
+	font-size: 30rpx;
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #ffffff;
+	background: #158DFF;
+}

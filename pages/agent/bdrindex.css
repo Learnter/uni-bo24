@@ -1,0 +1,76 @@
+page {
+	background: #1283F2;
+}
+.bdrdatopBox {
+	background: #158DFF;
+}
+.bdrdatopCont {
+	padding: 30rpx;
+}
+.bdrdatoptx {
+	color: #A5D6FA;
+	font-size: 26rpx;
+}
+
+.bdrdatopzw {
+	border-radius: 40rpx 40rpx 0rpx 0rpx;
+	background: #1283F2;
+	height: 50rpx;
+}
+.bdrdanrbox {
+  width:100%;
+	padding: 20rpx 30rpx;
+  box-sizing: border-box;
+}
+.bdrlist {
+	border-radius: 30rpx;
+	background: #158DFF;
+	padding: 0rpx 40rpx 30rpx 30rpx;
+	margin-bottom: 30rpx;
+}
+.bdrlistimg {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	background: #ffffff;
+	margin: 15rpx 20rpx 0rpx 0rpx;
+}
+.bdrlistimg image {
+	width: 100%;
+	height: 100%;
+}
+.bdrlistmc {
+	color: #ffffff;
+	font-size: 24rpx;
+	margin-top: 30rpx;
+}
+.bdrlistjib {
+	background:url(../../static/images/zwdj.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 35px;
+	height: 45px;
+	padding-top: 10rpx;
+	text-align: center;
+	color: #000000;
+	font-size: 24rpx;
+	line-height: 30rpx;
+}
+.bdrlistjib .col_1 {
+	color: #158DFF;
+}
+.bdrlistjib .col_2 {
+	color: #EA2100;
+}
+.bdrlistjib .col_3 {
+	color: #FFD828;
+}
+.bdrlistxx {
+	color: #A5D6FA;
+	font-size: 26rpx;
+	margin-top:15rpx;
+}
+.bdrlistid {
+	color: #A5D6FA;
+	font-size: 26rpx;
+	margin-top:5rpx;
+}

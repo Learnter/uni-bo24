@@ -1,0 +1,41 @@
+page {
+	background: #158DFF;
+}
+.apmyminBox {
+	padding: 30rpx 30rpx 0rpx 30rpx;
+}
+.apmyminList {
+	margin-bottom:30rpx;
+	border: 2rpx solid rgba(211, 240, 240, 0.1);
+	border-radius: 8rpx;
+}
+.apmymintlBox {
+	background: rgba(211, 240, 240, 0.1);
+	padding:15rpx 20rpx;
+}
+.apmyminCont {
+	padding: 20rpx 20rpx 5rpx 20rpx;
+}
+.apmytlene {
+	margin-bottom: 15rpx;
+	width: 49%;
+	float: left;
+}
+.apmytlene .text_1 {
+	color: #D3F0F0;
+	font-size:26rpx;
+}
+.apmytlene .text_2 {
+	color: #ffffff;
+	font-size:26rpx;
+}
+.apmyminckk {
+	color: #FFCD42;
+}
+.apmymintl .text_1 {
+	color: #D3F0F0;
+}
+.apmymintl .text_2 {
+	color: #ffffff;
+	margin-left: 10rpx;
+}

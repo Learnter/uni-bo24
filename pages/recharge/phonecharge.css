@@ -1,0 +1,121 @@
+page {
+	background: #f7f7f7;
+}
+
+.apbaogBox {
+	background: #ffffff;
+}
+
+.aprechBox {
+	padding: 0rpx 20rpx;
+}
+
+.aprechinptBox {
+	border-bottom: 2rpx solid #eeeeee;
+  padding-top: 20rpx;
+}
+
+.aprechinptl {
+	min-width: 160rpx;
+	line-height: 40rpx;
+  padding:20rpx 0 10rpx 0;
+}
+
+.aprechinput {
+  height:50rpx;
+  line-height: 40rpx;
+	font-size: 28rpx;
+  padding-bottom:10rpx;
+}
+
+.aprectitle {
+	padding: 50rpx 0rpx 0rpx 20rpx;
+}
+
+.aprejexzBoxhe {
+  min-height: 428rpx;
+	padding: 10rpx;
+}
+
+.aprejexzBox {
+	width: 50%;
+	float: left;
+}
+
+.aprejexzHe {
+	margin: 10rpx;
+	border: 2rpx solid #eeeeee;
+	padding: 10rpx;
+	text-align: center;
+	border-radius: 4rpx;
+}
+
+.aprejexzsj {
+	font-size: 24rpx;
+	color: #888888;
+}
+
+.aprejexzHeActive {
+	border: 2rpx solid #158DFF;
+}
+
+.chzxuwtsBox {
+	color: #888888;
+	padding: 20rpx;
+}
+
+.chzxuwtCont view {
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+
+
+
+.chzopupBox {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	min-height: 200rpx;
+	background: #158DFF;
+	z-index: 10000;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: All 0.3s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+	border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+
+.chzopupBoxActive {
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.chztbtleBox {
+	padding: 16rpx 20rpx;
+	border-bottom: 1px solid rgba(211, 240, 240, 0.1);
+}
+.chztzwei {
+	min-width: 60rpx;
+}
+.chztbtle {
+	text-align: center;
+	line-height:48rpx;
+	color: #ffffff;
+	font-size: 30rpx;
+}
+.chztbtCont {
+	padding: 30rpx;
+}
+.chztbttext_1 {
+	text-align: center;
+	color: #ffffff;
+}
+.chztbttext_2 {
+	text-align: center;
+	color: #D3F0F0;
+}

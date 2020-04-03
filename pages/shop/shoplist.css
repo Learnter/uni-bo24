@@ -1,0 +1,86 @@
+
+	.page-body {
+		display: flex;
+		background: #ffffff;
+	}
+	.nav {
+		display: flex;
+		width: 100%;
+	}
+
+	.nav-left {
+		width: 25%;
+		border-right: solid 1px #E0E0E0;
+	}
+	.nav-left-item {
+		height: 100rpx;
+		border-bottom: solid 1px #F4F8F7;
+		border-left:4rpx solid #F4F8F7;
+		font-size: 26rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.nav-right {
+		width: 75%;
+	}
+.active {
+		color: #158DFF;
+		background: #ffffff;
+		border-left:4rpx solid #158DFF;
+	}
+	
+	.selllistBox {
+		display: flex;
+		padding:20rpx;
+		border-bottom:2rpx solid #F4F8F7;
+ 	}
+	.selllistimg {
+		width:160rpx;
+		height:160rpx;
+		margin-right:20rpx;
+	}
+	.selllistimg image {
+		width:100%;
+		height:100%;
+	}
+	.selllistwz {
+		flex: 1;
+	}
+	.selllistTl {
+		color:#333333;
+		font-size:28rpx;
+		font-weight: 600;
+	}
+	.selllistms {
+		width:340rpx;
+		color:#444444;
+		font-size:24rpx;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap;
+	}
+	.spanplmfk {
+		color: #888888;
+		font-size: 24rpx;
+		line-height: 30rpx;
+	}
+	.selllistjg {
+		color:#FF0000;
+		font-size:30rpx;
+		height:50rpx;
+		line-height: 50rpx;
+	}
+	.spanplmcc {
+	    font-size: 26rpx;
+	    line-height: 35rpx;
+	    height: 70rpx;
+	    color: #333333;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    -webkit-line-clamp: 2;
+	    overflow: hidden;
+		  margin-bottom: 10rpx;
+	}

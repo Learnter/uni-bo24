@@ -1,0 +1,157 @@
+page {
+	background: #158DFF;
+}
+
+.tbuiconBox {
+	padding: 60rpx 0rpx 0rpx 10rpx;
+}
+
+.tbuiconBox .tbuicon {
+	padding: 0rpx;
+	margin: 0rpx;
+	background: none;
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 80rpx;
+	text-align: left;
+}
+
+.tbuiconBox .tbuicon:after {
+	border: none;
+}
+
+.tbuicon .i {
+	font-weight: 600;
+}
+
+.whlonBox {
+	padding: 0rpx 60rpx;
+}
+
+.whlontitle {
+	color: #F1F1F1;
+	font-size: 60rpx;
+	font-weight: 600;
+	letter-spacing: 4rpx;
+	line-height: 80rpx;
+	padding:40rpx 0rpx 10rpx 0rpx;
+}
+
+.qxlontitlems {
+	color: #D3F0F0;
+	font-size: 26rpx;
+	padding-bottom: 6%;
+}
+.qxloninputBox {
+	margin-bottom: 15rpx;
+}
+.qxloninputBox .qxloninput {
+	background: #158DFF;
+	border-bottom: 1px solid rgba(211, 240, 240, 0.1);
+}
+
+.qxloninput .uni-input {
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0rpx;
+	background: #158DFF;
+	color: #D3F0F0;
+}
+.uni-form-item .with-fun .uni-icon {
+	color: #D3F0F0;
+	text-align: right;
+}
+.whlogbtnBox{
+	padding: 60rpx 0rpx 20rpx 0rpx;
+}
+.whlogbtn {
+	background: #62ADF7;
+	color: #ffffff;
+	font-size: 30rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	padding: 0rpx;
+	border-radius: 6rpx;
+}
+.whlogbtn:after {
+	border:none;
+}
+.qxloninput .yzm {
+	width: 180rpx;
+	height: 80rpx;
+}
+
+.qxloninput .textyzm {
+	line-height: 80rpx;
+	color: #ffffff;
+	background: #158DFF;
+	color: #ffffff;
+	font-size: 26rpx;
+	padding: 0rpx 10rpx;
+}
+.qxloninput .textyzm:after {
+	border:none;
+}
+.qxlogLinka {
+	color: #ffffff;
+	font-size: 26upx;
+}
+.qxlogLinkams {
+	 color: #C4D8D8;
+}
+
+.languaBox {
+	 border-bottom: 2rpx solid rgba(211, 240, 240, 0.1);
+	 padding: 0rpx 0rpx 20rpx 0rpx;
+	 margin-bottom: 15rpx;
+}
+.languatl {
+	color:#C4D8D8;
+	border-right: 2rpx solid rgba(211, 240, 240, 0.1);
+	padding-right: 30rpx;
+	margin-right: 30rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.languaCont {
+	color:#C4D8D8;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+
+
+
+.qxbesLinkTle {
+    text-align: center;
+    border-top: 2rpx solid rgba(211, 240, 240, 0.1);
+    height: 40rpx;
+    margin-top: 20%;
+}
+.qxbesLintx {
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 26rpx;
+    color: #C4D8D8;
+    display: inline-block;
+    padding: 0rpx 40rpx;
+    background: #158DFF;
+    position: relative;
+    top: -24rpx;
+    z-index: 10;
+}
+.qxbesLinanBox {
+    text-align: center;
+}
+.qxbesLinan {
+    display: inline-block;
+    padding: 20rpx;
+}
+.qxbesLinan image {
+    width: 90rpx;
+	height: 90rpx;
+}
+.qxbesLinantx {
+    font-size: 24rpx;
+    color: #C4D8D8;
+}

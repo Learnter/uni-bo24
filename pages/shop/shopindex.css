@@ -1,0 +1,162 @@
+page {
+	height: auto;
+	min-height: 100%;
+	background: #f5f5f5;
+}
+.homeTopBaBa {
+	height: 100rpx;
+	background: #158DFF;
+}
+
+.homeTopHe {
+	width: 100%;
+	height: 100rpx;
+	z-index: 100;
+}
+
+.homeTop {
+	display: flex;
+	padding: 20rpx;
+	background: #158DFF;
+}
+
+.homeTopLogo {
+	width: 45rpx;
+	height: 45rpx;
+	margin-top: 8rpx;
+}
+
+.homeTopLogo image {
+	width: 100%;
+	height: 100%;
+}
+
+.homedssplink {
+	flex: 1;
+	padding: 0rpx 0rpx 0rpx 20rpx;
+}
+
+.edssplinkzi {
+	background: rgba(255, 255, 255, 0.2);
+	height: 60rpx;
+	line-height: 60rpx;
+	color: #ffffff;
+	border-radius: 30rpx;
+}
+
+.edssplinkzi .i {
+	display: inline-block;
+	margin: 0rpx 15rpx;
+}
+
+.edssplinkzi .text_1 {
+	font-size: 26rpx;
+	color: #ffffff;
+}
+
+.cfssagecrBox {
+	border-top: 2rpx solid #F1F1F1;
+	border-bottom: 2rpx solid #F1F1F1;
+	background: #ffffff;
+	/* margin-top: 10rpx; */
+}
+
+.shangclbbBox {
+	padding: 0rpx 20rpx;
+	position: relative;
+	background: #158DFF;
+}
+
+.shangclbbBox .zzcimg {
+	position: absolute;
+	left: 0rpx;
+	bottom: 0rpx;
+	width: 100%;
+	height: 45rpx;
+	z-index: 1;
+}
+
+.shangclbb {
+	position: relative;
+	z-index: 10;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+
+.setNavCont {
+	padding: 20upx 0upx 0rpx 0rpx;
+	box-shadow: 0rpx 3rpx 20rpx #E3E3E3;
+	background: #ffffff;
+}
+
+.setNav {
+	width: 25%;
+	text-align: center;
+	padding: 20upx 0upx;
+	float: left;
+}
+
+.setNav image {
+	width: 50upx;
+	height: 50upx;
+	margin-bottom: 5upx;
+}
+
+.setNavtx {
+	color: #333333;
+	font-size: 24upx;
+}
+
+.spanplibBox {
+	padding: 20rpx 10rpx 10rpx 10rpx;
+}
+.spanplibHe {
+	width: 50%;
+	float: left;
+  margin-bottom:10rpx;
+  border-radius: 20rpx 20rpx 40rpx 40rpx;
+  overflow: hidden;
+}
+.spanplibCont {
+	background: #ffffff;
+	border-radius: 8rpx;
+	width: 96%;
+	margin: 0 auto;
+	margin-bottom: 10rpx;
+}
+.spanplibimg {
+	width: 100%;
+	height:360rpx;
+	text-align: center;
+	overflow: hidden;
+  padding:10rpx;
+  box-sizing:border-box;
+}
+.spanplibimg image {
+	width: 100%;
+	height: 300rpx;
+}
+.spanplmdaboc {
+	padding: 5rpx 15rpx 15rpx 15rpx;
+  background:#F0F0F0;
+}
+.spanplmcc {
+	font-size: 28rpx;
+	line-height: 35rpx;
+	height: 70rpx; 
+	color: #333333;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.spanplmjg {
+	color: #FF0000;
+	font-size: 28rpx;
+	line-height: 35rpx;
+}
+.spanplmfk {
+	color: #888888;
+	font-size: 24upx;
+	line-height: 30rpx;
+}

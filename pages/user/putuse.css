@@ -1,0 +1,19 @@
+.apinNavBox {
+	padding-top: 40rpx;
+}
+.apinNav {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	padding-top: 10rpx;
+}
+.apinNav image {
+	height:125rpx;
+	width:125rpx;
+}
+.apinNavtx {
+	color: #333333;
+	font-size: 24rpx;
+	position: relative;
+	top:-15rpx;
+}

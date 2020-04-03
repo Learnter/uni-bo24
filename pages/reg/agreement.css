@@ -1,0 +1,20 @@
+.agremntBox {
+	padding: 30rpx;
+}
+.agremntTl {
+	color: #000000;
+	font-size: 60rpx;
+	font-weight: 600;
+	padding: 20rpx 0rpx;
+}
+.agremntCont {
+	color: #8f8f94;
+	line-height: 60rpx;
+	text-indent:50rpx;
+}
+.agremntCont image {
+	width: 100%;
+}
+.agremntCont img {
+	width: 100%;
+}

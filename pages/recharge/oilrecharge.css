@@ -1,0 +1,95 @@
+page {
+	background: #f7f7f7;
+}
+
+.apbaogBox {
+	background: #ffffff;
+}
+
+.aprechBox {
+	padding: 0rpx 20rpx;
+}
+
+.aprechinptBox {
+	border-bottom: 2rpx solid #eeeeee;
+	padding-top: 20rpx;
+}
+
+.aprechinptl {
+	min-width: 160rpx;
+	line-height: 40rpx;
+  padding:20rpx 0 10rpx 0;
+}
+
+.aprechinput {
+  height:50rpx;
+  line-height: 40rpx;
+	font-size: 28rpx;
+  padding-bottom:10rpx;
+}
+
+.aprectitle {
+	padding: 50rpx 0rpx 0rpx 20rpx;
+}
+.aprectitletwo {
+	padding: 35rpx 0rpx 0rpx 20rpx;
+}
+
+.aprejexzBoxhe {
+	padding: 10rpx;
+  min-height:292rpx;
+}
+
+.aprejexzBox {
+	width: 50%;
+	float: left;
+}
+
+.aprejexzHe {
+	margin: 10rpx;
+	border: 2rpx solid #eeeeee;
+	padding: 10rpx;
+	text-align: center;
+	border-radius: 4rpx;
+}
+
+.aprejexzsj {
+	font-size: 24rpx;
+	color: #888888;
+}
+
+.aprejexzHeActive {
+	border: 2rpx solid #158DFF;
+}
+
+.chzxuwtsBox {
+	color: #888888;
+	padding: 20rpx;
+}
+
+.chzxuwtCont view {
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+.ykdeBox {
+	margin-top:20rpx;
+}
+
+.ykdeimg image {
+	width: 80rpx;
+	height: 80rpx;
+}
+.ykdeBoxHe {
+	padding: 0rpx 10rpx 0rpx 20rpx;
+}
+.ykdetext {
+	line-height: 80rpx;
+	height: 80rpx;
+	padding-left: 30rpx;
+}
+.ykdexzan {
+	margin-top: 15rpx;
+}
+.ocyknBox {
+	padding:20rpx;
+}

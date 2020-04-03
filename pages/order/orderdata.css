@@ -1,0 +1,151 @@
+page {
+		background: #F5F5F5;
+	}
+	.orddaTop {
+		background: #158DFF;
+		padding:50rpx 10rpx;
+		line-height: 50rpx;
+		text-align: center;
+		color:#ffffff;
+		font-size:36rpx;
+	}
+	
+	.dandcanBox {
+		background: #ffffff;
+		margin-bottom:20rpx;
+	}
+	.dandcanTl {
+		display: flex;
+		padding:20rpx;
+	}
+	.dandcanTl image {
+		width:50rpx;
+		height:50rpx;
+	}
+	.dandcanTltx {
+		font-size:30rpx;
+		color:#333333;
+		flex: 1;
+		padding-left:15rpx;
+	}
+	.dandcaList {
+		display: flex;
+		background:#ffffff;
+		padding:20rpx;
+		border-top:2rpx solid #F1F1F1;
+	}
+	.dandcaLiimg {
+		width: 160rpx;
+		height: 160rpx;
+		margin-right: 20rpx;
+	}
+	.dandcaLiimg image {
+		width:100%;
+		height:100%;
+	}
+	.dandcaLiCont {
+		flex: 1;
+	}
+	.dandcaLitl {
+		color: #333333;
+		font-size: 28rpx;
+		line-height: 50rpx;
+		height:100rpx;
+		width: 450rpx;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+	}
+	.shuljge {
+		display: flex;
+	}
+	.danshu {
+		font-size:26rpx;
+		color:#666666;
+		flex: 1;
+	}
+	.danjie {
+		color:#333333;
+	}
+	.bazfpsfBox {
+		padding:20rpx;
+		border-top:2rpx solid #F1F1F1;
+		display: flex;
+	}
+	.bazfpsfimg {
+		padding-right:15rpx;
+		height:40rpx;
+		line-height: 40rpx;
+	}
+	.bazfpsfimg image {
+		width:40rpx;
+		height:40rpx;
+	}
+	.bazfpsfitl {
+		line-height:40rpx;
+		font-size:26rpx;
+		height: 40rpx;
+		flex: 1;
+		color: #666666;
+	}
+	.bazfpslxsj {
+		line-height:40rpx;
+		font-size:26rpx;
+		height: 40rpx;
+		flex: 1;
+		color: #158DFF;
+	}
+	.bazfzqxy {
+		color:#09BB07;
+		line-height: 46rpx;
+	}
+	.bazfpsfths {
+		line-height:40rpx;
+		font-size:24rpx;
+		height: 40rpx;
+		color: #999999;
+	}
+	.bazfpsfdtdh {
+		line-height:40rpx;
+		font-size:24rpx;
+		height: 40rpx;
+		color: #158DFF;
+	}
+	.bazfpsfijg {
+		color:#333333;
+	}
+	
+	.huodongBox {
+		background: #ffffff;
+		margin-bottom:20rpx;
+	}
+	.xiajit_1 {
+		color:#333333;
+		line-height: 40rpx;
+		height:40rpx;
+		padding:0rpx 10rpx 0rpx 20rpx;
+	}
+	.xiajit_2 {
+		color:#FF0000;
+		font-weight: 600;
+		line-height: 40rpx;
+		height:40rpx;
+	}
+	.sdashzx {
+		height:40rpx;
+		line-height: 40rpx;
+	}
+	.huodongTl {
+		color:#111111;
+		padding:20rpx;
+	}
+	.duzhian {
+		padding:0rpx 0rpx 0rpx 20rpx;
+		height:40rpx;
+		line-height: 40rpx;
+		color:#158DFF;
+		font-size: 24rpx;
+		border-left: 1px solid #aaaaaa;
+		margin-left:20rpx;
+	}

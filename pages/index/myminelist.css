@@ -1,0 +1,57 @@
+page {
+	height: auto;
+	min-height: 100%;
+	/* background: url(../../static/images/a024laner_51.png) no-repeat center;
+	background-size: cover; */
+}
+.apmymilistBox {
+	padding:20rpx 0rpx 10rpx 0rpx;
+}
+.apmymilist {
+	background: url(../../static/images/a024laner_48.png) no-repeat center;
+	background-size: 100% 100%;
+	padding: 40rpx 60rpx 40rpx 15rpx;
+}
+.apmymilistActive { 
+	background: url(../../static/images/a024laner_48_1.gif) no-repeat center;
+	background-size: 100% 100%;
+}
+.apmymimg {
+	width: 250rpx;
+}
+.apmymimg image {
+	width: 100%;
+	height: 250rpx;
+}
+.apmymmanBox {
+	height: 180rpx;
+	line-height: 180rpx;
+	border-radius: 12rpx;
+	text-align: center;
+	color: #ffffff;
+	font-size: 28rpx;
+	background:#168DFF;
+	margin: 0px auto;
+	margin-top: 35rpx;
+	padding: 0rpx 18rpx;
+}
+.apmymdatt {
+	padding-top: 30rpx;
+}
+.apmymman {
+	width: 28rpx;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 40rpx;
+}
+.apmymmms {
+	font-size: 26rpx;
+	color:#333333;
+}
+.apmymmche {
+	color:#00D3FF;
+	font-size:32rpx;
+	background-image:-webkit-linear-gradient(bottom,#FCA830,#FA8A3A,red); 
+	-webkit-background-clip:text; 
+	-webkit-text-fill-color:transparent; 
+}

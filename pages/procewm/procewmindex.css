@@ -1,0 +1,79 @@
+page {
+	background: #158DFF;
+}
+.procewmBox {
+	padding: 20rpx 30rpx;
+}
+.procewmCont {
+	background: #ffffff;
+	border-radius: 6rpx;
+	overflow: hidden;
+}
+.procewmTl {
+	background: #F0F9FF;
+	padding: 15rpx 0rpx;
+	text-align: center;
+	line-height: 40rpx;
+}
+.procewmTl image {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+	position: relative;
+	top:5rpx;
+}
+.procewminzi {
+	text-align: center;
+	padding: 30rpx 0rpx;
+	font-size: 32rpx;
+}
+.proceewming {
+	width: 340rpx;
+	height: 340rpx;
+	margin: 0 auto;
+}
+.proceewming image {
+	width: 100%;
+	height:100%;
+}
+.procaozuoBox {
+	width: 480rpx;
+	margin: 0 auto;
+	padding: 60rpx 0rpx;
+  justify-content:center;
+}
+.procaozuolt {
+	border-right:2rpx solid #DEDEDE;
+	color: #40A2DB;
+	line-height: 30rpx;
+  text-align:center;
+   width:33.3%;
+}
+.procaozuort {
+	color: #40A2DB;
+	text-align:center;
+	line-height: 30rpx;
+  width:33.3%;
+}
+.btomnav {
+	border-top:1px solid #EFF0F2;
+	padding: 25rpx;
+}
+.btomnavimg{
+	height:50rpx;
+	width: 80rpx;
+	line-height: 50rpx;
+}
+.btomnavimg image {
+	height:50rpx;
+	width: 50rpx;
+}
+.btomnavtx {
+	color: #333333;
+	font-size: 28rpx;
+	height:50rpx;
+	line-height: 50rpx;
+}
+.btomnavzxx {
+	line-height: 50rpx;
+}

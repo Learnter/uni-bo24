@@ -1,0 +1,249 @@
+.bannImg {
+	width: 100%;
+	height: 400rpx;
+	overflow: hidden;
+	background: #ffffff;
+}
+
+.bannImgimg {
+	width: 100%;
+	height:100%;
+}
+
+.apgprice {
+	padding: 20rpx;
+	color: #FF0000;
+}
+
+.apgprminc {
+	padding: 0rpx 20rpx 20rpx 20rpx;
+}
+
+.apgpxuanzBox {
+	background: #EBF4FF;
+	padding: 20rpx;
+}
+
+.aptoreBox {
+	padding: 15rpx 20rpx;
+	border-bottom: 2rpx solid #f4f4f4;
+}
+
+.aptoreimg {
+	width: 100rpx;
+	height: 100rpx;
+	margin: 10rpx 15rpx 0rpx 0rpx;
+}
+
+.aptoreimg image {
+	width: 100%;
+	height: 100%;
+}
+
+.aptoredpu {
+	color: #888888;
+	font-size: 28rpx;
+	line-height: 40rpx;
+	white-space: nowrap;
+	padding-right:10rpx;
+  display:flex;
+  align-items:center;
+}
+
+.aptoredsp {
+	line-height: 30rpx;
+	font-size: 26rpx;
+}
+
+.aptoredsp .text_1 {
+	color: #158DFF;
+	margin-right: 10rpx;
+}
+
+.aptorelxdh {
+	line-height: 35rpx;
+	color: #888888;
+	font-size: 22rpx;
+  padding-top:10rpx;
+}
+
+.detaildata {
+	padding: 20rpx 20rpx 100rpx 20rpx;
+	color: #666666;
+	font-size: 26rpx;
+}
+
+.detaildata view,
+.detaildata p,
+.detaildata div {
+	color: #666666;
+	font-size: 26rpx;
+}
+
+.detaildata img {
+	width: 100%;
+}
+
+.detaildata image {
+	width: 100%;
+}
+
+
+.goosdupBox {
+	position: fixed;
+	left: 0rpx;
+	top: 0rpx;
+	right: 0rpx;
+	bottom: 0rpx;
+	width: 100%;
+	min-height: 200rpx;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 999;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: All 0.3s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+
+.goosdupBoxActive {
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.goosdupContHe {
+	position: absolute;
+	left: 0rpx;
+	bottom: -30%;
+	min-height: 60%;
+	max-height: 90%;
+	width: 100%;
+	background: #ffffff;
+	border-radius: 20rpx 20rpx 0rpx 0rpx;
+	overflow-y: auto;
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+.goosdupContHeActve {
+	bottom: 0%;
+}
+
+.goosdupCont {
+	padding: 20rpx 0rpx 120rpx 0rpx;
+}
+
+.confirmBox {
+	position: absolute;
+	bottom: 0rpx;
+	left: 0rpx;
+	width: 100%;
+}
+.confirmHe {
+	padding: 20rpx;
+	background: #ffffff;
+}
+
+.spuspcTl {
+	padding: 20rpx 20rpx 0rpx 20rpx;
+	color: #111111;
+	font-weight: 600;
+}
+
+.spuspcOneBox {
+	padding: 10rpx;
+}
+
+.spuspcOne {
+	border: 2rpx solid #eeeeee;
+	color: #333333;
+	display: inline-block;
+	min-width: 90rpx;
+	padding: 0rpx 20rpx;
+	text-align: center;
+	height: 54rpx;
+	line-height: 54rpx;
+	margin: 10rpx;
+	font-size: 24rpx;
+	border-radius: 6rpx;
+}
+
+.spuspcOneActive {
+	border: 2rpx solid #158DFF;
+	color: #158DFF;
+}
+
+.spuspcbanr {
+	padding: 10rpx 20rpx;
+	text-align: right;
+}
+
+.goshzsBox {
+	padding: 10rpx 20rpx;
+}
+.goshzsimg {
+	width: 120rpx;
+	height: 120rpx;
+	margin-right: 20rpx;
+}
+.goshzsimg image {
+	width: 100%;
+	height:100%;
+}
+.goshzsjg {
+	color:#FF0000;
+}
+.goshzsms {
+	font-size: 24rpx;
+	color: #666666;
+}
+
+.godsbtmBox {
+	position: fixed;
+	left: 0rpx;
+	bottom:0rpx;
+	z-index: 100;
+	width: 100%;
+	height: 100rpx;
+}
+.godsbtmHe {
+	border-top:2rpx solid #eeeeee;
+	background: #ffffff;
+} 
+.godsbtmdata {
+	padding:0rpx 25rpx 0rpx 50rpx;
+	display: inline-block;
+	text-align: center;
+}
+.godsbtmdata image {
+	width: 50rpx;
+	height: 50rpx;
+}
+.godsbtmtx {
+	color:#9A9A9A;
+	position: relative;
+	top:-20rpx;
+}
+.godsbgwc {
+	height: 100rpx;
+	line-height: 100rpx;
+	background: #FFB308;
+	color: #ffffff;
+	min-width: 180rpx;
+	text-align: center;
+	padding: 0rpx 20rpx;
+}
+.godsbtlhgm {
+	height: 100rpx;
+	line-height: 100rpx;
+	background: #FD1702;
+	color: #ffffff;
+	min-width: 180rpx;
+	text-align: center;
+	padding: 0rpx 20rpx;
+}
